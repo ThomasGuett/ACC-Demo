@@ -1,0 +1,2 @@
+docker build -t demo-frontend --build-arg CAMUNDA_WEBHOOK='https://bru-2.connectors.camunda.io/ea3555e9-8c74-4046-9ccc-56778a7f8ed8/inbound/91eec63d-b018-43e9-88e2-c3c939fb9f3e' --target production .
+docker run -p 80:80 demo-frontend
